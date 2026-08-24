@@ -1,0 +1,14 @@
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+build/*.aux
+build/*.log
+build/*.out
+
+# macOS
+.DS_Store
+build/resume-pandoc.pdf

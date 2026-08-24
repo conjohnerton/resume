@@ -1,0 +1,44 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc and TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended
+
+      - name: Validate resume.json
+        run: make check
+
+      - name: Render Markdown and LaTeX
+        run: make md tex
+
+      - name: Build the PDF
+        run: make pdf-pdflatex
+
+      - name: Build the pandoc LaTeX
+        run: make pandoc-tex
+
+      - name: Upload the results
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume
+          path: |
+            build/resume.md
+            build/resume.tex
+            build/resume.pdf
+            build/resume-pandoc.tex
