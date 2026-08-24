@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "John Connerton",
+    "label": "Full Stack Senior Software Engineer",
+    "email": "conjohnerton@gmail.com",
+    "url": "https://conjohnerton.github.io",
+    "location": {
+      "region": "USA",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "conjohnerton",
+        "url": "https://github.com/conjohnerton"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Appfolio Inc.",
+      "position": "Full Stack Senior Software Engineer, Payments",
+      "location": "Remote",
+      "startDate": "2023-01",
+      "endDate": null,
+      "highlights": [
+        "Spearheaded the payments front-end initiative for a brand-new cross platform app, establishing best practices and defining scalable patterns to deliver a robust payment experience for over 150 million residents. Integrated client-side encryption to ensure compliance and data security, significantly mitigating legal risks while building trust in the platform's financial reliability.",
+        "Leveraged React Native to create cross-platform, reusable components, GraphQL to create, and Ruby on Rails to support a reliable, scalable backend for seamless payment processing.",
+        "Drove feature work to bring transaction fees to resident payment flow generating 1.6m+ MRR, delivered early leading to ~$3m in surplus revenue.",
+        "Integrated external partner with existing payments infrastructure to enable tenants to pay rent in installments.",
+        "Automated data auditing for resident fee changes to meet compliance with federal financial regulations."
+      ]
+    },
+    {
+      "name": "Twitter Inc.",
+      "position": "Software Engineer, Developer Productivity and Tools",
+      "location": "Remote",
+      "startDate": "2021-07",
+      "endDate": "2023-01",
+      "highlights": [
+        "Contributed to improving git status and git checkout performance by 88% and 96% respectively by developing features and fixing bugs for focus, an open source tool that uses bazel to accelerate project build times.",
+        "Designed and implemented branch management features for focus, implemented the ability for focus projects to recursively include other projects to their project definitions, and gave focus users the ability to copy their branches from a dense repo when creating a focus repo.",
+        "Handled operations support for global git infrastructure, serving all Twitter engineers and internal systems.",
+        "Led company-wide git client upgrade from v2.25 to v2.35, boosting performance by 10% for some commands and facilitating new dev toolsets."
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "position": "Software Development Engineer Intern",
+      "location": "Seattle, WA",
+      "startDate": "2020-05",
+      "endDate": "2020-07",
+      "highlights": [
+        "Designed and implemented Direct Lambdas, impacting 90% of all customer experience pathways.",
+        "Created comprehensive team documentation encompassing service software design, features, and engineering work-flow tips.",
+        "Reduced memory overhead by optimizing GraphQL query handling for customer APIs using Java and Kotlin.",
+        "Streamlined user experience for new AppSync features in the AWS console using React-Redux and TypeScript."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Based Memes",
+      "url": "https://basedmemes.lol",
+      "keywords": ["Ruby on Rails", "JavaScript", "Next.js"],
+      "description": "Developed a niche-focused meme search website. Designed a streamlined user experience, enabling browsing by meme tags and user-generated content. Marketed the platform through creative meme culture associated with various online subcultures."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Public University",
+      "studyType": "BS",
+      "area": "Computer Science",
+      "score": "3.6",
+      "startDate": "2018-08",
+      "endDate": "2021-05"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "JavaScript", "Ruby", "Rust"]
+    },
+    {
+      "name": "Technologies",
+      "keywords": ["Linux", "Git", "Ruby on Rails", "React Native", "React"]
+    }
+  ]
+}
