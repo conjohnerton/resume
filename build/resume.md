@@ -5,43 +5,32 @@ USA · [conjohnerton@gmail.com](mailto:conjohnerton@gmail.com) · [conjohnerton.
 ## Experience
 
 ### Appfolio Inc. · Remote
-*Full Stack Senior Software Engineer, Payments* · *January 2023 - Present*
+*Senior Software Engineer, Technical Lead, Payments* · *January 2023 - Present*
 
-- Spearheaded the payments front-end initiative for a brand-new cross platform app, establishing best practices and defining scalable patterns to deliver a robust payment experience for over 150 million residents. Integrated client-side encryption to ensure compliance and data security, significantly mitigating legal risks while building trust in the platform's financial reliability.
-- Leveraged React Native to create cross-platform, reusable components, GraphQL to create, and Ruby on Rails to support a reliable, scalable backend for seamless payment processing.
-- Drove feature work to bring transaction fees to resident payment flow generating 1.6m+ MRR, delivered early leading to ~$3m in surplus revenue.
-- Integrated external partner with existing payments infrastructure to enable tenants to pay rent in installments.
-- Automated data auditing for resident fee changes to meet compliance with federal financial regulations.
+- Technical lead for the Online Certified Funds At Move-in payments product built to grow online payment adoption across Appfolio's platform. Took it from an experiment to general availability, coordinating changes across six service teams and working directly with product, design, and support operations teams.
+- Grew the product to 30% of all move-ins by owning the rollout and building the monitoring dashboards the team paced each stage on.
+- Created an integration for a lending partner to offer rent installments directly to residents, and scaled it from a 15 customer pilot to 100% of Appfolio's customers. Built the bank account tokenization, queue-based sync, and APIs behind it.
+- Built the payments foundation for a new resident portal, now the base for Appfolio's new products, and set the patterns three payments teams build on today.
 
 ### Twitter Inc. · Remote
 *Software Engineer, Developer Productivity and Tools* · *July 2021 - January 2023*
 
-- Contributed to improving git status and git checkout performance by 88% and 96% respectively by developing features and fixing bugs for focus, an open source tool that uses bazel to accelerate project build times.
-- Designed and implemented branch management features for focus, implemented the ability for focus projects to recursively include other projects to their project definitions, and gave focus users the ability to copy their branches from a dense repo when creating a focus repo.
-- Handled operations support for global git infrastructure, serving all Twitter engineers and internal systems.
-- Led company-wide git client upgrade from v2.25 to v2.35, boosting performance by 10% for some commands and facilitating new dev toolsets.
+- Improved git status and git checkout performance by 88% and 96% through development of Focus.
+- Designed and implemented branch management for Focus, so engineers could carry in-flight branches from the dense monorepo into a Focus repo and compose project definitions recursively.
+- Led the company-wide git client upgrade from v2.25 to v2.35, improving git command performance by 10%, and operations support for the global git infrastructure.
 
 ### Amazon Web Services · Seattle, WA
 *Software Development Engineer Intern* · *May 2020 - July 2020*
 
-- Designed and implemented Direct Lambdas, impacting 90% of all customer experience pathways.
-- Created comprehensive team documentation encompassing service software design, features, and engineering work-flow tips.
-- Reduced memory overhead by optimizing GraphQL query handling for customer APIs using Java and Kotlin.
-- Streamlined user experience for new AppSync features in the AWS console using React-Redux and TypeScript.
-
-## Projects
-
-### Based Memes · Ruby on Rails, JavaScript, Next.js
-[basedmemes.lol](https://basedmemes.lol)
-
-Developed a niche-focused meme search website. Designed a streamlined user experience, enabling browsing by meme tags and user-generated content. Marketed the platform through creative meme culture associated with various online subcultures.
+- Designed and implemented Direct Lambdas, providing a default configuration for 90% of AppSync customers. Optimized GraphQL query handler to cut memory overhead and enhanced AppSync features in the AWS console.
 
 ## Education
 
-### Public University
-*BS Computer Science, GPA: 3.6* · *August 2018 - May 2021*
+### University of Central Florida
+*BS Computer Science* · *August 2018 - May 2021*
 
 ## Skills
 
-- **Languages:** Python, JavaScript, Ruby, Rust
-- **Technologies:** Linux, Git, Ruby on Rails, React Native, React
+- **Languages:** Ruby, JavaScript, TypeScript, Python, SQL, Rust
+- **Frameworks:** Ruby on Rails, React, React Native, GraphQL
+- **Infrastructure:** MySQL, Snowflake, Kubernetes, Datadog, CircleCI, Git, Linux

@@ -91,6 +91,18 @@ def render_markdown(data):
                 lines.append(f"- {point}")
             lines.append("")
 
+    if data.get("awards"):
+        lines += ["## Recognition", ""]
+        for award in data["awards"]:
+            when = month_year(award.get("date"))
+            lines.append(f"### {award['title']}")
+            awarder = award.get("awarder", "")
+            lines.append(f"*{awarder}* · *{when}*")
+            if award.get("summary"):
+                lines.append("")
+                lines.append(award["summary"])
+            lines.append("")
+
     if data.get("projects"):
         lines += ["## Projects", ""]
         for project in data["projects"]:
@@ -154,6 +166,16 @@ def render_latex(data, template):
                 date_range(job.get("startDate"), job.get("endDate")),
             )
             bullets(job.get("highlights", []))
+
+    if data.get("awards"):
+        body.append("\\section*{Recognition}")
+        for award in data["awards"]:
+            entry(
+                award["title"],
+                month_year(award.get("date")),
+                award.get("summary", ""),
+                "",
+            )
 
     if data.get("projects"):
         body.append("\\section*{Projects}")
