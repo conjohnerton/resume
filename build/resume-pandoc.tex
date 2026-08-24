@@ -1,0 +1,179 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage[]{charter}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{John Connerton}\label{john-connerton}
+
+USA ·
+\href{mailto:conjohnerton@gmail.com}{\nolinkurl{conjohnerton@gmail.com}}
+· \href{https://conjohnerton.github.io}{conjohnerton.github.io}
+
+\subsection{Experience}\label{experience}
+
+\subsubsection{Appfolio Inc.~· Remote}\label{appfolio-inc.-remote}
+
+\emph{Full Stack Senior Software Engineer, Payments} · \emph{January
+2023 - Present}
+
+\begin{itemize}
+\tightlist
+\item
+  Spearheaded the payments front-end initiative for a brand-new cross
+  platform app, establishing best practices and defining scalable
+  patterns to deliver a robust payment experience for over 150 million
+  residents. Integrated client-side encryption to ensure compliance and
+  data security, significantly mitigating legal risks while building
+  trust in the platform's financial reliability.
+\item
+  Leveraged React Native to create cross-platform, reusable components,
+  GraphQL to create, and Ruby on Rails to support a reliable, scalable
+  backend for seamless payment processing.
+\item
+  Drove feature work to bring transaction fees to resident payment flow
+  generating 1.6m+ MRR, delivered early leading to \textasciitilde\$3m
+  in surplus revenue.
+\item
+  Integrated external partner with existing payments infrastructure to
+  enable tenants to pay rent in installments.
+\item
+  Automated data auditing for resident fee changes to meet compliance
+  with federal financial regulations.
+\end{itemize}
+
+\subsubsection{Twitter Inc.~· Remote}\label{twitter-inc.-remote}
+
+\emph{Software Engineer, Developer Productivity and Tools} · \emph{July
+2021 - January 2023}
+
+\begin{itemize}
+\tightlist
+\item
+  Contributed to improving git status and git checkout performance by
+  88\% and 96\% respectively by developing features and fixing bugs for
+  focus, an open source tool that uses bazel to accelerate project build
+  times.
+\item
+  Designed and implemented branch management features for focus,
+  implemented the ability for focus projects to recursively include
+  other projects to their project definitions, and gave focus users the
+  ability to copy their branches from a dense repo when creating a focus
+  repo.
+\item
+  Handled operations support for global git infrastructure, serving all
+  Twitter engineers and internal systems.
+\item
+  Led company-wide git client upgrade from v2.25 to v2.35, boosting
+  performance by 10\% for some commands and facilitating new dev
+  toolsets.
+\end{itemize}
+
+\subsubsection{Amazon Web Services · Seattle,
+WA}\label{amazon-web-services-seattle-wa}
+
+\emph{Software Development Engineer Intern} · \emph{May 2020 - July
+2020}
+
+\begin{itemize}
+\tightlist
+\item
+  Designed and implemented Direct Lambdas, impacting 90\% of all
+  customer experience pathways.
+\item
+  Created comprehensive team documentation encompassing service software
+  design, features, and engineering work-flow tips.
+\item
+  Reduced memory overhead by optimizing GraphQL query handling for
+  customer APIs using Java and Kotlin.
+\item
+  Streamlined user experience for new AppSync features in the AWS
+  console using React-Redux and TypeScript.
+\end{itemize}
+
+\subsection{Projects}\label{projects}
+
+\subsubsection{Based Memes · Ruby on Rails, JavaScript,
+Next.js}\label{based-memes-ruby-on-rails-javascript-next.js}
+
+\href{https://basedmemes.lol}{basedmemes.lol}
+
+Developed a niche-focused meme search website. Designed a streamlined
+user experience, enabling browsing by meme tags and user-generated
+content. Marketed the platform through creative meme culture associated
+with various online subcultures.
+
+\subsection{Education}\label{education}
+
+\subsubsection{Public University}\label{public-university}
+
+\emph{BS Computer Science, GPA: 3.6} · \emph{August 2018 - May 2021}
+
+\subsection{Skills}\label{skills}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Languages:} Python, JavaScript, Ruby, Rust
+\item
+  \textbf{Technologies:} Linux, Git, Ruby on Rails, React Native, React
+\end{itemize}
+
+\end{document}
